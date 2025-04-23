@@ -1,5 +1,5 @@
 body {
-    background-image: url('./Assets/Background.png');
+    background-image: url('./Assets/Background.jpg');
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,8 +32,8 @@ div {
 
 .images {
     background-color: wheat;
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     display: flex;
     flex-direction: column;
@@ -43,6 +43,7 @@ div {
 }
 img {
     width: 100px;
+    height: 110px;
 }
 
 .select {

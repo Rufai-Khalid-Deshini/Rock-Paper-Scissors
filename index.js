@@ -1,18 +1,18 @@
 const imgs = [
     {
-        "src": "./Assets/Question.png",
+        "src": "./Assets/Question.jpg",
         "alt": "none"
     },
     {
-        "src": "./Assets/Rock Gesture Icon.png",
+        "src": "./Assets/Rock Gesture Icon.jpg",
         "alt": "rock"
     },
     {
-        "src": "./Assets/Paper Hand Gesture.png",
+        "src": "./Assets/Paper Hand Gesture.jpg",
         "alt": "paper"
     },
     {
-        "src": "./Assets/Scissors Gesture.png",
+        "src": "./Assets/Scissors Gesture.jpg",
         "alt": "scissors"
     }
 ];
@@ -138,14 +138,14 @@ shoot.addEventListener("click", () => {
         severity.innerHTML = mod[0].severity;
         icon.style.display = "block";
         icon.style.display = "block";
-        icon.setAttribute("src", "./Assets/User.png");
+        icon.setAttribute("src", "./Assets/User.jpg");
 
     }else if(winner == "comp") {
         message.innerHTML = mod[1].message;
         severity.innerHTML = mod[1].severity;
         icon.style.display = "block";
         icon.style.display = "block";
-        icon.setAttribute("src", "./Assets/Computer.png");
+        icon.setAttribute("src", "./Assets/Computer.jpg");
     }else {
         message.innerHTML = mod[2].message;
         severity.innerHTML = mod[2].severity;
