@@ -1,0 +1,122 @@
+body {
+    background-image: url('./Assets/Background.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+}
+
+.images {
+    background-color: wheat;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 3px 1px silver;
+}
+img {
+    width: 100px;
+}
+
+.select {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#next, #prev {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: x-large;
+    cursor: pointer;
+}
+#shoot {
+    margin-top: 12px;
+    border: none;
+    outline: none;
+    background-color: #129d43;
+    color: white;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100px;
+    cursor: pointer;
+    transition-duration: 400ms;
+}
+#shoot:active {
+    transform: translateY(4px);
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#inner {
+    width: 80%;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px 1px gray;
+    position: relative;
+}
+
+#severity {
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+}
+#message {
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+}
+#close {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-weight: 700;
+    font-size: large;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition-duration: 400ms;
+}
+#close:active {
+    color: lightskyblue;
+}
